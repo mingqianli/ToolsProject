@@ -49,7 +49,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'project_31.urls'
+ROOT_URLCONF = 'Squirrel.urls'
 
 TEMPLATES = [
     {
@@ -67,7 +67,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'project_31.wsgi.application'
+WSGI_APPLICATION = 'Squirrel.wsgi.application'
 
 
 # Database
