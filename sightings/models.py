@@ -3,6 +3,7 @@ from django.db import models
 from django.utils.translation import gettext as _
 
 class Tracker(models.Model):
+ # x and y used to simplify coordinates referencing
     x = models.FloatField (  
         help_text = ('Longitude'),
          )
