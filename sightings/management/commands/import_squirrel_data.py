@@ -1,19 +1,15 @@
 import csv
-from django.core.management.base import BaseCommand
-
-
-
-
-
+from django.core.management.base import BaseCommand, CommandError
+import datetime
 from sighitngs.models import Tracker
 
 
 class Command(BaseCommand):
     def add_arguments(self, parser):
-        parser.add_argument('pathe')
+        parser.add_argument('path')
     #comment 
     def handle(self, *args, **options):
-        with open(options['pathe']) as fp:
+        with open(options['path']) as fp:
             reader = csv.DictReader(fp)
             data = list(reader)
 
