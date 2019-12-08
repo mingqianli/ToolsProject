@@ -19,27 +19,27 @@ class Command(BaseCommand):
                 y = item['Y'],
                 ID = item['Unique Squirrel ID'],
                 shift = item['Shiftx'],
-                date = item['Date']
-                age = item['Age']
-                primary_fur_colo = item['Primary Fur Color']
-                location = ['Location']
-                specific location = ['Specific Location']
-                running = ['Running']
-                chasing = ['Chasing']
-                climbing = ['Climbing']
-                eating = ['Eating']
-                foraging = ['Foraging']
-                other_activities = ['Other Activities']
-                kuks = ['Kuks']
-                quaas = ['Quaas']
-                moans = ['Moans']
-                tail_flags = ['Tail Flags']
-                tail_twitches = ['Tail Twiches']
-                approaches = ['Approaches']
-                indifferent ['Indifferent']
-                runs_from = ['Runs From']
+                date = item['Date'],
+                age = item['Age'],
+                primary_fur_colo = item['Primary Fur Color'],
+                location = ['Location'],
+                specific_location = ['Specific Location'],
+                running = ['Running'],
+                chasing = ['Chasing'],
+                climbing = ['Climbing'],
+                eating = ['Eating'],
+                foraging = ['Foraging'],
+                other_activities = ['Other Activities'],
+                kuks = ['Kuks'],
+                quaas = ['Quaas'],
+                moans = ['Moans'],
+                tail_flags = ['Tail Flags'],
+                tail_twitches = ['Tail Twiches'],
+                approaches = ['Approaches'],
+                Indifferent ['Indifferent'],
+                runs_from = ['Runs From'],
 
 
 
-            )
+                )   
             t.save()

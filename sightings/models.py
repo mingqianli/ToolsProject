@@ -113,7 +113,7 @@ class Tracker(models.Model):
     approaches = models.CharField(
         help_text = ('Approaches?'),
         max_length = 50,)
-    indifferent = models.CharField(
+    Indifferent = models.CharField(
         help_text = ('Indifferent?'),
         max_length = 50,)
     runs_from = models.CharField(
