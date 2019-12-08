@@ -1,7 +1,7 @@
 import csv
 from django.core.management.base import BaseCommand, CommandError
 import datetime
-from sighitngs.models import Tracker
+from sightings.models import Tracker
 
 
 class Command(BaseCommand):
@@ -36,7 +36,7 @@ class Command(BaseCommand):
                 tail_flags = ['Tail Flags'],
                 tail_twitches = ['Tail Twiches'],
                 approaches = ['Approaches'],
-                Indifferent ['Indifferent'],
+                Indifferent = ['Indifferent'],
                 runs_from = ['Runs From'],
 
 
