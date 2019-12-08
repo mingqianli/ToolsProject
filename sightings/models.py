@@ -10,9 +10,10 @@ class Tracker(models.Model):
     y = models.FloatField(
         help_text = ('Latitude'),
          )
-    ID = models.CharField(
+    unique_squirrel_id  = models.CharField(
         help_text = ('Unique Squirrel Id'),
         max_length = 50,
+        primary_key = True,
          )
     PM = 'PM'
     AM = 'AM'

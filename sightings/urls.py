@@ -5,7 +5,7 @@ from django.contrib import admin
 from . import views
 
 urlpatterns = [
-        path('map/',views.all),
+        path('map/',views.showmap, name = 'showmap'),
     ]
 
 
