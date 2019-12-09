@@ -154,5 +154,5 @@ class Tracker(models.Model):
             max_length = 50,)
     
     def __str__(self):
-        return self.ID
+        return self.unique_squirrel_id
 
